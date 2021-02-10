@@ -43,6 +43,12 @@
                 insertInDB($alias, $flag);
             }
         ?>
+        <div class="leaderboard">
+            <p>ⱠɆ₳ĐɆⱤ฿Ø₳ⱤĐ</p>
+            <?php
+                echo getLeaderboard();
+            ?>
+        </div>
     </div>
     <div class="footer">
         <div class="ft-section">
@@ -52,6 +58,19 @@
 </body>
 </html>
 <?php
+
+function getLeaderboard(){
+    $con = getCon(); 
+    $sql = "SELECT submitedflags.alias, COUNT(*) as flag_count FROM submitedflags GROUP BY submitedflags.alias;";
+    $result = $con->query($sql);
+    echo "<ol>";
+    while($row = $result->fetch_array()){
+        echo "<li><span style='color: green; font-size: 20px; font-weight: bold;' >{$row[0]}</span> ₵ØⱠⱠɆ₵₮ɆĐ <span style='color: red; font-size: 20px; font-weight: bold;'>{$row[1]}</span> ₣Ⱡ₳₲₴</li>";
+    }
+    echo "</ol>";
+
+}
+
 
 function insertInDB($alias, $flag){
     //Check if user got correct flag
@@ -74,7 +93,6 @@ function insertInDB($alias, $flag){
     }
     echo "";
 }
-
 function insertFlag($alias, $flag){
     $con = getCon();
     $sql = "INSERT INTO `submitedflags` (`id`, `alias`, `flag`) VALUES (NULL, '$alias', '$flag');";
