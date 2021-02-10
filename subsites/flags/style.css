@@ -1,0 +1,123 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+body {
+    color: azure;
+    background-image: url(../../assets/photos/cosmos.jpg);
+    background-size: cover;
+}
+form{
+    color: azure;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.baner > div {
+    text-align: center;
+    font-size: 1.2em;
+}
+.baner {
+    color: azure;
+    width: 100%;
+    height: 10%;
+    display:grid;
+    grid: auto / auto;
+    font-size: 1.2em;
+}
+.box {
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    transition: 0.4s linear;
+    transition-duration: 0.9s;
+    color: azure;
+    font-weight: bold;
+}
+.colors{
+    color: #00111F;
+    color: #1E405B;
+    color: #155075;
+    color: #2C5E8C;
+    color: #D9D78E;
+}
+.footer .ft-section {
+    text-align: center;
+    font-size: 1.2em;
+}.footer p {
+    margin: 0;
+}
+.footer {
+    color: azure;
+    display: grid;
+    width: 100%;
+    height: 5%;
+    grid: auto / auto;
+    position: absolute;
+    bottom: 0;
+    /* Once i had 12 somone gave me this brilian ciph[...] but with minus[...]*/
+}
+.form-section{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+}
+.submit{
+    display: grid;
+    grid: auto / auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content p {
+    font-size: 1.5em;;
+}
+.main-content{
+    display: grid;
+    grid: auto / auto;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+.menu-btn:hover .menu-dropdown {
+    display: block;
+    transition-duration: 0.4;
+    transition: 0.4s linear;
+}
+.menu-btn:hover {
+    transition-duration: 0.4s;
+    transition: 0.4s linear;
+}
+.menu-btn{
+    color: azure;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.menu-dropdown a {
+    color: azure;
+    text-decoration: none;
+    display: block;
+    padding-left: 5%;
+}
+.menu-dropdown a:hover {
+    background-blend-mode: luminosity;
+    color: #D9D78E;
+}
+.menu-dropdown {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-blend-mode: lighten;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.4s;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    display: block;
+    padding-left: 5%;
+}
