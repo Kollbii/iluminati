@@ -1,0 +1,218 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+body {
+    color: azure;
+    /* background-image: url(../../assets/photos/cosmos.jpg); */
+    background-image: url("https://media.giphy.com/media/cmwhjwsWolHNBzlkgC/giphy.gif");
+    background-size: cover;
+}
+form{
+    color: azure;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.baner > div {
+    text-align: center;
+    font-size: 1.2em;
+}
+.baner {
+    color: azure;
+    width: 100%;
+    height: 10%;
+    display:grid;
+    grid: auto / auto;
+    font-size: 1.2em;
+}
+.box {
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+    transition: 0.4s linear;
+    transition-duration: 0.9s;
+    color: azure;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+.footer .ft-section {
+    text-align: center;
+    font-size: 1.2em;
+}.footer p {
+    margin: 0;
+}
+.footer {
+    color: azure;
+    display: grid;
+    width: 100%;
+    height: 5%;
+    grid: auto / auto;
+    position: absolute;
+    bottom: 0;
+    /* Once i had 12 somone gave me this brilian ciph[...] but with minus[...]*/
+}
+.form-section{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+}
+.form-section #submit{
+    width: 100%;
+}
+.submit{
+    display: grid;
+    grid: auto / auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content p {
+    font-size: 1.2em;;
+}
+.main-content{
+    display: grid;
+    grid: auto / auto;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+.menu-btn span:hover{
+    color: #D9D78E;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    display: block;
+}
+.leaderboard{
+    margin-top: 10%;
+}
+ol{
+    list-style-type: none;
+}
+h1 {
+    position: relative;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: calc(20px + 5vw);
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #be226b;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+    animation: shake 2.5s linear forwards;
+}
+
+h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    -webkit-clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
+            clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
+}
+
+h1::before,
+h1::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1::before {
+    animation: crack1 2.5s linear forwards;
+    -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
+}
+
+h1::after {
+    animation: crack2 2.5s linear forwards;
+    -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
+            clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
+}
+
+@keyframes shake {
+    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+        filter: blur(0.018em);
+        transform: translateY(0.018em) rotate(0deg);
+    }
+
+    10%, 30%, 40%, 50%, 70%, 80%, 90% {
+        filter: blur(0.01em);
+        transform: translateY(-0.018em) rotate(0deg);
+    }
+
+    20%, 60% {
+        filter: blur(0.03em);
+        transform: translate(-0.018em, 0.018em) rotate(0deg);
+    }
+
+    45%, 85% {
+        filter: blur(0.03em);
+        transform: translate(0.018em, -0.018em) rotate(0deg);
+    }
+
+    100% {
+        filter: blur(0.007em);
+        transform: translate(0) rotate(-0.5deg);
+    }
+}
+
+@keyframes crack1 {
+    0%, 95% {
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        transform: translate(-51%, -48%);
+    }
+}
+
+@keyframes crack2 {
+    0%, 95% {
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        transform: translate(-49%, -53%);
+    }
+}
+.form__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+  }
+  
+  .form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+      margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+  }
+  
+  .form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+  

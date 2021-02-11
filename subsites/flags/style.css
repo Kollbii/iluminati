@@ -4,7 +4,8 @@
 }
 body {
     color: azure;
-    background-image: url(../../assets/photos/cosmos.jpg);
+    /* background-image: url(../../assets/photos/cosmos.jpg); */
+    background-image: url("https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif");
     background-size: cover;
 }
 form{
@@ -34,13 +35,6 @@ form{
     transition-duration: 0.9s;
     color: azure;
     font-weight: bold;
-}
-.colors{
-    color: #00111F;
-    color: #1E405B;
-    color: #155075;
-    color: #2C5E8C;
-    color: #D9D78E;
 }
 .footer .ft-section {
     text-align: center;
@@ -81,45 +75,13 @@ form{
     width: 100%;
     align-items: center;
 }
-.menu-btn:hover .menu-dropdown {
-    display: block;
-    transition-duration: 0.4;
-    transition: 0.4s linear;
-}
-.menu-btn:hover {
-    transition-duration: 0.4s;
-    transition: 0.4s linear;
-}
-.menu-btn{
-    color: azure;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-.menu-dropdown a {
-    color: azure;
-    text-decoration: none;
-    display: block;
-    padding-left: 5%;
-}
-.menu-dropdown a:hover {
-    background-blend-mode: luminosity;
+.menu-btn span:hover{
     color: #D9D78E;
-}
-.menu-dropdown {
-    width: 100%;
-    display: none;
-    position: absolute;
-    background-blend-mode: lighten;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    transition: 0.4s;
 }
 a{
     color: azure;
     text-decoration: none;
     display: block;
-    padding-left: 5%;
 }
 .leaderboard{
     margin-top: 10%;

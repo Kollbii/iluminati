@@ -4,7 +4,8 @@
 }
 body {
     color: azure;
-    background-image: url(../../assets/photos/cosmos.jpg);
+    /* background-image: url(../../assets/photos/cosmos.jpg); */
+    background-image: url("https://media.giphy.com/media/h5XENtRSEjj8tELOXW/giphy.gif");
     background-size: cover;
 }
 form{
