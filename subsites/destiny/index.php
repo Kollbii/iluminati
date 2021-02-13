@@ -23,12 +23,11 @@
         </div>
         <div class="submit">
             <form method="POST" action="?">
-                <div class="form__group">
-                    <input type="text" class="form__input" id="question" name="question" placeholder="QɄɆ₴₮łØ₦?" required="" />
-                    <label for="name" class="form__label">QɄɆ₴₮łØ₦?</label>
+                <div class="form-section">
+                    <input type="text" class="form-input" id="question" name="question" placeholder="QɄɆ₴₮łØ₦?"/>
                 </div>
                 <div class="form-section">
-                    <input type="submit" name="submit" id="submit" value="₳₴₭">
+                    <input type="submit" class="form-input" name="submit" id="submit" value="₳₴₭">
                 </div>
             </form>
         </div>

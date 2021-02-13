@@ -58,10 +58,14 @@ form{
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 50px;
     text-align: right;
 }
 .form-section #submit{
     width: 100%;
+}
+.form-input{
+    height: 30px;
 }
 .submit{
     display: grid;

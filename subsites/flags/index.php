@@ -70,8 +70,6 @@ function getLeaderboard(){
     echo "</ol>";
 
 }
-
-
 function insertInDB($alias, $flag){
     //Check if user got correct flag
     $valid = checkFlag($flag);
