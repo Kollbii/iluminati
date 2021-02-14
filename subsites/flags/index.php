@@ -40,6 +40,9 @@
             if(isset($_POST['submit'])){
                 $alias = $_POST['alias'];
                 $flag = $_POST['flag'];
+                if (trim($alias) == ''){
+                    echo "Ɇ₦₮ɆⱤ ɎØɄⱤ ₳Ⱡł₳₴ <br>";
+                }
                 insertInDB($alias, $flag);
             }
         ?>

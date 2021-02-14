@@ -1,0 +1,99 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+body {
+    color: azure;
+    /* background-image: url(../../assets/photos/cosmos.jpg); */
+    background-image: url("https://media.giphy.com/media/GHycyakNPWSoo/giphy.gif");
+    background-size: cover;
+}
+form{
+    color: azure;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.baner > div {
+    text-align: center;
+    font-size: 1.2em;
+}
+.baner {
+    color: azure;
+    width: 100%;
+    height: 10%;
+    display:grid;
+    grid: auto / auto;
+    font-size: 1.2em;
+}
+.box {
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    transition: 0.4s linear;
+    transition-duration: 0.9s;
+    color: azure;
+    font-weight: bold;
+}
+.main-content .box span {
+    display: block;
+    margin-top: 20%;
+    font-size: 4em;
+}
+.main-content .box span:hover {
+    color: #D9D78E;
+}
+.footer .ft-section {
+    text-align: center;
+    font-size: 1.2em;
+}.footer p {
+    margin: 0;
+}
+.footer {
+    color: azure;
+    display: grid;
+    width: 100%;
+    height: 5%;
+    grid: auto / auto;
+    position: absolute;
+    bottom: 0;
+    /* Once i had 12 somone gave me this brilian ciph[...] but with minus[...]*/
+}
+.form-section{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+}
+.submit{
+    display: grid;
+    grid: auto / auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content p {
+    font-size: 1.5em;;
+}
+.main-content{
+    display: grid;
+    grid: auto / auto;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+.menu-btn span:hover{
+    color: #D9D78E;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    display: block;
+}
+.leaderboard{
+    margin-top: 10%;
+}
+ol{
+    list-style-type: none;
+}

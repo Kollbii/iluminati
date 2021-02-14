@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script type="text/javascript" src="chat.js"></script>
     <title>Ilmn</title>
 </head>
 <body>
@@ -20,13 +19,8 @@
 
     <div class="main-content">
         <div class="box">
-            <h1 data-text="ⱠɆ₳Ɽ₦ ₥Ɇ"><span>ⱠɆ₳Ɽ₦ ₥Ɇ</span></h1>
-        </div>
-        <div class="submit">
-                <p id="chat"></p>
-        </div>
-        <div class="form-section">
-            <input type="text" class="form-input" id="question" name="question" placeholder="QɄɆ₴₮łØ₦?" onkeydown="if (event.keyCode == 13) {talk()}">
+            <p>Ɇ₦₮ɆⱤ Ø₦ ɎØɄⱤ Ø₩₦ Ɽł₴₭</p>
+            <a href="#"><span>₲Ø ł₦</span></a>
         </div>
     </div>
     <div class="footer">
