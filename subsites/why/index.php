@@ -20,7 +20,7 @@
     <div class="main-content">
         <div class="box">
             <p>Ɇ₦₮ɆⱤ Ø₦ ɎØɄⱤ Ø₩₦ Ɽł₴₭</p>
-            <a href="#"><span>₲Ø ł₦</span></a>
+            <a href="./1/"><span>₲Ø ł₦</span></a>
         </div>
     </div>
     <div class="footer">
