@@ -5,6 +5,9 @@ Site is simple and has a lot of vulnerabilities.
 There is some flags in _cllFlag{}_ format.
 I'll write what you can find on this site.  
 
+Site is hosted on my university site.  
+Link: [Illuminati](http://student.agh.edu.pl/~kollbek/)
+
 ### Main page
 The background is a gif. Don't get scared!  
 Also there is first flag hidden in a plain sight.
